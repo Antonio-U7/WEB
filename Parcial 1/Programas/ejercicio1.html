@@ -1,11 +1,27 @@
 <html>
 <head> 
+	<style>
+		.boton-fijo {
+            position: fixed; /* Hace que el elemento no se desplace con el scroll */
+           bottom: 50px;      /* Distancia desde la parte inferior */
+    		left: 35px;       /* Distancia desde la parte izquierda */
+            background-color: #27CFF5; /* Color de fondo del botón */
+            color: white; /* Color del texto */
+            padding: 12px 24px; /* Espacio interior del botón */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+            z-index: 10; /* Asegura que esté por encima de otros elementos */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+        }
+	</style>
 </head> 
 <body>
 	<h1>Mi primera página </h1>
 	<p>Programación Web I</p>
 
-	
+	<button class="boton-fijo"> <a href="Main.html">Inicio</a> </button>
+
 </body> 
 </html> 
 <embeded>
